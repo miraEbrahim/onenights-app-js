@@ -1,0 +1,24 @@
+{
+  "name": "onenights-js-app",
+  "version": "1.0.0",
+  "description": "one nights app using Javascript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/miraEbrahim/onenights-app-js.git"
+  },
+  "keywords": [
+    "javascript",
+    "css3",
+    "html"
+  ],
+  "author": "Maryam Ebrahim <mxebrahim@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/miraEbrahim/onenights-app-js/issues"
+  },
+  "homepage": "https://github.com/miraEbrahim/onenights-app-js#readme"
+}
