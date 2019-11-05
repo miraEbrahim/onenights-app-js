@@ -1,4 +1,10 @@
-const myArrowFunc = (a, b) => {
-  if (a === void 0) return b;
-  return a;
-};
+function component() {
+  const element = document.createElement('div');
+
+  // Lodash, currently included via a script, is required for this line to work
+  element.innerHTML = _.join(['Hello', 'webpack'], ' ');
+
+  return element;
+}
+
+document.body.appendChild(component());
