@@ -1,6 +1,6 @@
 import _ from 'lodash';
 import './css/style.css';
-import Icon from './img/mira.jpg';
+import Logo from './img/mira.jpg';
 
 function component() {
   const element = document.createElement('div');
@@ -10,7 +10,7 @@ function component() {
   element.classList.add('hello');
   //add the image t our exsiting div
   const logo = new Image();
-  logo.src = Icon;
+  logo.src = Logo;
   element.appendChild(logo);
   return element;
 }

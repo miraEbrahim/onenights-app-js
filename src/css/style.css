@@ -1,4 +1,88 @@
+/* baloo-bhaijaan-regular - arabic */
+@font-face {
+  font-family: 'Baloo Bhaijaan';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/baloo-bhaijaan/baloo-bhaijaan-v6-arabic-regular.eot'); /* IE9 Compat Modes */
+  src: local('Baloo Bhaijaan Regular'), local('BalooBhaijaan-Regular'),
+       url('../fonts/baloo-bhaijaan/baloo-bhaijaan-v6-arabic-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/baloo-bhaijaan/baloo-bhaijaan-v6-arabic-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/baloo-bhaijaan/baloo-bhaijaan-v6-arabic-regular.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/baloo-bhaijaan/baloo-bhaijaan-v6-arabic-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/baloo-bhaijaan/baloo-bhaijaan-v6-arabic-regular.svg#BalooBhaijaan') format('svg'); /* Legacy iOS */
+};
+/* lemonada-regular - arabic */
+@font-face {
+  font-family: 'Lemonada';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/lemonada/lemonada-v7-arabic-regular.eot'); /* IE9 Compat Modes */
+  src: local('Lemonada'), local('Lemonada-Regular'),
+       url('../fonts/lemonada/lemonada-v7-arabic-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/lemonada/lemonada-v7-arabic-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/lemonada/lemonada-v7-arabic-regular.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/lemonada/lemonada-v7-arabic-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/lemonada/lemonada-v7-arabic-regular.svg#Lemonada') format('svg'); /* Legacy iOS */
+};
+
+/* almarai-300 - arabic */
+@font-face {
+  font-family: 'Almarai';
+  font-style: normal;
+  font-weight: 300;
+  src: url('../fonts/almarai/almarai-v2-arabic-300.eot'); /* IE9 Compat Modes */
+  src: local('Almarai Light'), local('Almarai-Light'),
+       url('../fonts/almarai/almarai-v2-arabic-300.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/almarai/almarai-v2-arabic-300.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/almarai/almarai-v2-arabic-300.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/almarai/almarai-v2-arabic-300.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/almarai/almarai-v2-arabic-300.svg#Almarai') format('svg'); /* Legacy iOS */
+}
+
+/* roboto-100 - latin */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 100;
+  src: url('../fonts/roboto/roboto-v20-latin-100.eot'); /* IE9 Compat Modes */
+  src: local('Roboto Thin'), local('Roboto-Thin'),
+       url('../fonts/roboto/roboto-v20-latin-100.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/roboto/roboto-v20-latin-100.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/roboto/roboto-v20-latin-100.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/roboto/roboto-v20-latin-100.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/roboto/roboto-v20-latin-100.svg#Roboto') format('svg'); /* Legacy iOS */
+}
+/* roboto-regular - latin */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/roboto/roboto-v20-latin-regular.eot'); /* IE9 Compat Modes */
+  src: local('Roboto'), local('Roboto-Regular'),
+       url('../fonts/roboto/roboto-v20-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/roboto/roboto-v20-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/roboto/roboto-v20-latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/roboto/roboto-v20-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/roboto/roboto-v20-latin-regular.svg#Roboto') format('svg'); /* Legacy iOS */
+}
+
+/* nova-oval-regular - latin */
+@font-face {
+  font-family: 'Nova Oval';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/nova-oval/nova-oval-v11-latin-regular.eot'); /* IE9 Compat Modes */
+  src: local('Nova Oval'), local('NovaOval'),
+       url('../fonts/nova-oval/nova-oval-v11-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/nova-oval/nova-oval-v11-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/nova-oval/nova-oval-v11-latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/nova-oval/nova-oval-v11-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/nova-oval/nova-oval-v11-latin-regular.svg#NovaOval') format('svg'); /* Legacy iOS */
+}
+
 .hello{
   color:red;
   background: url('../img/mira.jpg');
+  font-family: 'Nova Oval';
+  font-size: 40px;
 }
