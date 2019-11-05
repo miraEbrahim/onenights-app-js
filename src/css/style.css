@@ -82,7 +82,7 @@
 
 .hello{
   color:red;
-  background: url('../img/mira.jpg');
+  background: url('../img/mira.jpg') center cover;
   font-family: 'Nova Oval';
   font-size: 40px;
 }
