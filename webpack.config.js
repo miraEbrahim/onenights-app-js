@@ -8,6 +8,9 @@ module.exports = {
     print: './src/print.js'
   },
   devtool: 'eval-source-map',
+  devServer: {
+    contentBase: './dist',
+  },
   plugins:[
     new HtmlWebpackPlugin({
       title: 'Webpack Output'
