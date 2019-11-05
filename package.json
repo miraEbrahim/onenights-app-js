@@ -24,6 +24,7 @@
   },
   "homepage": "https://github.com/miraEbrahim/onenights-app-js#readme",
   "dependencies": {
+    "lodash": "^4.17.15",
     "webpack": "^5.0.0-beta.2",
     "webpack-cli": "^3.3.10"
   },
