@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/miraEbrahim/onenights-app-js.git"
+    "url": "git+https://github.com/miraEbrahim/webpack-starter-js.git"
   },
   "keywords": [
     "javascript",
@@ -21,9 +21,9 @@
   "author": "Maryam Ebrahim <mxebrahim@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/miraEbrahim/onenights-app-js/issues"
+    "url": "https://github.com/miraEbrahim/webpack-starter-js/issues"
   },
-  "homepage": "https://github.com/miraEbrahim/onenights-app-js#readme",
+  "homepage": "https://github.com/miraEbrahim/webpack-starter-js#readme",
   "dependencies": {
     "lodash": "^4.17.15",
     "webpack": "^4.41.2"
