@@ -80,9 +80,26 @@
        url('../fonts/nova-oval/nova-oval-v11-latin-regular.svg#NovaOval') format('svg'); /* Legacy iOS */
 }
 
+/* Colors Pallete */
+:root{
+  --color1: rgb(#3C4564);
+  --color2: rgb(#6A1B9A);
+  --color3: rgb(#697597);
+  --color4: rgb(#e3e6e9);
+  --color5: rgb(#8e96b5);
+  --color6: rgb(#d602ee);
+  --color7: rgb(#ee6002);
+  --color8: rgb(#ee021a);
+  --color9: rgb(#1b2132);
+}
+
 .hello{
-  color:red;
-  background: url('../img/mira.jpg') center cover;
+  display: grid;
+  grid-template-columns: auto;
+  color:#ee0290;
+  background-color: #222;
+  /* ;: url('../img/onenight-logo.png') center cover; */
   font-family: 'Nova Oval';
   font-size: 40px;
 }
+
